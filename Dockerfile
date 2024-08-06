@@ -13,7 +13,14 @@ RUN apt-get update \
 	sudo \
 	vim \
 	wget \
-	software-properties-common build-essential && \
+  eza \
+  unzip \
+  ranger \
+  neovim \
+  nano \
+  micro \
+  zsh \
+  software-properties-common build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 
